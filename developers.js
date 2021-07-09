@@ -41,7 +41,6 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
     try {
-        console.log(req.body);
         const requestData = req.body;
         const githubUrl = requestData.github_id;
         const splittedGithubUrl = githubUrl.split("/");

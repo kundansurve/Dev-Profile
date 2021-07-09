@@ -16,7 +16,7 @@ class Home extends Component {
                     this.setState({
                         alldevelopers: data,
                         searchDevelopers: data,
-                    }); console.log(this.state)
+                    }); 
                 })
         } catch (err) {
             console.log(err);
@@ -47,8 +47,6 @@ class Home extends Component {
                 {
                     this.state.searchDevelopers.length > 0 ?
                         this.state.searchDevelopers.map((value) => {
-                            console.log(value);
-                            console.log(this.state.searchDevelopers);
                             return (<div id={value} className="developers">
                                 <img className="developers_img" src="../images/account_circle-24px.svg" alt="icon1" />
                                 <h5 className="developersusername">{value.id}</h5>

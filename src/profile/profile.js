@@ -22,11 +22,9 @@ class Profile extends Component {
     }
     componentDidMount() {
         try {
-            console.log(this.props.location.pathname);
             fetch('/api' + this.props.location.pathname)
                 .then(response => response.json())
                 .then((data) => {
-                    console.log(data);
                     this.setState({
                         Name: data[0].name,
                         bio: data[0].bio,

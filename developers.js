@@ -22,7 +22,7 @@ const developers = [{
         "description": "A list of awesome resources for learning to code",
         "updated_at": "2020-08-12T18:21:53Z"
     }]
-},];
+}];
 router.use(express.urlencoded({ extended: true }));
 router.use(express.json());
 router.get('/', (req, res) => {

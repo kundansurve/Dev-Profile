@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
     #header3 {
         height: 600px;
         width: 100%;
@@ -148,6 +148,7 @@
         top: 10%;
         opacity: 100%;
         border: 1px solid black;
+        z-index: 35;
     }
     hr {
         margin: 12px 10px 15px 15px;

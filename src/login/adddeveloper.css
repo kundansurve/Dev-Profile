@@ -1,0 +1,206 @@
+@media only screen and (min-width: 400px) {
+    #header3 {
+        height: 600px;
+        width: 100%;
+        background-color: #3F3D56;
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 29;
+    }
+    #homeTitle {
+        font-size: 72px;
+        font-style: "Nunito Sans";
+        color: #FFFFFF;
+        margin: auto 100px;
+    }
+    #homeImg {
+        height: 500px;
+        width: 600px;
+        margin: auto;
+        margin-right: 50px;
+    }
+    #Title {
+        font-size: 32px;
+        margin-top: 50px;
+        margin-left: 3vw;
+        margin-bottom: 0px;
+    }
+    #adddeveloper {
+        background-color: white;
+        width: 900px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin: 400px auto 50px auto;
+        z-index: 30;
+        border: 1px solid black;
+    }
+    hr {
+        margin: 50px 30px 30px 30px;
+        background: #a8a8aa;
+        color: #3F3D56;
+    }
+    #design {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #adddeveloper input {
+        height: 50px;
+        width: 600px;
+        margin: 20px;
+        margin-left: 5vw;
+        font-size: 24px;
+    }
+    .inputTitle {
+        font-size: 24px;
+        margin-left: 5vw;
+    }
+    .inputTitle img {
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+    }
+    #cancel {
+        color: black;
+        background-color: white;
+        display: flex;
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+        padding-top: 0px;
+        text-decoration: underline;
+    }
+    #buttonallign {
+        padding-left: 500px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 0px;
+    }
+    .button {
+        height: 50px;
+        font-size: 24px;
+        width: 10vw;
+        color: white;
+        background-color: #3F3D56;
+        text-decoration: none;
+        border: none;
+        margin-left: 10px;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    a {
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    footer{
+        margin-top:1000px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header3 {
+        height: 600px;
+        width: 100%;
+        background-color: #3F3D56;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    #homeTitle {
+        font-size: 36px;
+        font-style: "Nunito Sans";
+        color: #FFFFFF;
+        text-align: center;
+    }
+    #homeImg {
+        height: 40%;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 0px;
+        margin-top: 10%;
+    }
+    #Title {
+        font-size: 2vh;
+        margin-top: 2vh;
+        margin-left: 3vw;
+        margin-bottom: 0px;
+    }
+    #adddeveloper {
+        background-color: white;
+        width: 70vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: -10vh auto 50px auto;
+        top: 10%;
+        opacity: 100%;
+        border: 1px solid black;
+    }
+    hr {
+        margin: 12px 10px 15px 15px;
+        background: #a8a8aa;
+        color: #3F3D56;
+    }
+    #design {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #adddeveloper input {
+        height: 2vh;
+        width: 40vw;
+        margin: 2vh;
+        margin-left: 5vw;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .inputTitle {
+        font-size: 2vh;
+        margin-left: 5vw;
+    }
+    .inputTitle img {
+        height: 2vh;
+        width: 2vh;
+        margin-right: 5px;
+    }
+    #cancel {
+        color: black;
+        background-color: white;
+    }
+    #buttonallign {
+        margin-left: 250px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    #submit {
+        height: 30px;
+        background-color: #3F3D56;
+        color: white;
+        width: 100px;
+        padding: 0px;
+        border: none;
+        border-radius: 5px;
+        margin: 0px 10px 0px 10px;
+    }
+    a {
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}

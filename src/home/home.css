@@ -1,0 +1,284 @@
+body{
+    background: white;
+}
+@media only screen and (min-width: 400px) {
+    header {
+        height: 600;
+        width: 100%;
+        background-color: #3F3D56;
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+    }
+    #homeTitle {
+        font-size: 72px;
+        font-style: "Nunito Sans";
+        color: #FFFFFF;
+        margin: auto 100px;
+    }
+    #homeImg {
+        height: 500px;
+        width: 600px;
+        margin: auto;
+        margin-right: 50px;
+    }
+    #heading {
+        font-size: 56px;
+        color: #3F3D56;
+        margin: 50px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    hr {
+        margin: 50px;
+        background: #3F3D56;
+        color: #3F3D56;
+    }
+    #searchBar {
+        margin: auto;
+        height: 80px;
+        width: 790px;
+        background: #D0CDE1;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #searchBar input {
+        width: 700px;
+        height: 60px;
+        margin: 10px;
+        color: #D0CDE1;
+        border-radius: 10px;
+        border: 0px;
+        outline: 0px;
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 36px;
+        color: #3F3D56;
+        display: flex;
+        justify-content: center;
+    }
+    button {
+        font-size: 36px;
+        color: #FFFFFF;
+        background: #7C639F;
+        height: 80px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        text-decoration: none;
+    }
+    #devLogin {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    h4 {
+        margin: auto 72px;
+    }
+    footer {
+        background-color: #3F3D56;
+        display: flex;
+        height: 80px;
+        color: #FFFFFF;
+        font-size: 24px;
+        justify-content: center;
+    }
+    #searchLogo {
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+    }
+    .developers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height:100px;
+        margin: 50px 10vw;
+      }
+      #devlist{
+        display:grid;
+        grid-template-columns: auto auto;
+        padding: 40px 0px;
+    }
+      .developers_img {
+              height: 100px;
+              margin: 2vw 10px 0px 0px;
+              width: 100px;
+              width: 100px;
+          }
+          .developersusername {
+              font-size: 36px;
+              color: #9F8E63;
+              margin: auto 0px;
+          }
+          .developers a{
+              height: 36px;
+              width: 36px;
+              display: flex;
+              justify-content:center;
+              align-items:center;
+              margin:auto;
+            margin-left: 20px;
+          }
+          #empty{
+              height:200px;
+              font-size:20px;
+            width:200px;
+            margin:auto;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        height: 600px;
+        width: 100%;
+        background-color: #3F3D56;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    #homeTitle {
+        font-size: 36px;
+        font-style: "Nunito Sans";
+        color: #FFFFFF;
+        text-align: center;
+    }
+    #homeImg {
+        height: 40%;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 0px;
+        margin-top: 10%;
+    }
+    #heading {
+        font-size: 20px;
+        color: #3F3D56;
+        margin: 20px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    #devlist{
+        display:grid;
+        grid-template-columns: auto auto;
+        padding: 40px 0px;
+    }
+    hr {
+        margin: 20px;
+        background: #3F3D56;
+        color: #3F3D56;
+    }
+    #searchBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: auto;
+        height: 32px;
+        width: 276px;
+        background: #D0CDE1;
+        border-radius: 10px;
+    }
+    #searchBar input {
+        width: 240px;
+        height: 20px;
+        margin: 10px;
+        color: #D0CDE1;
+        border-radius: 10px;
+        border: 0px;
+        outline: 0px;
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+        color: #3F3D56;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    button {
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 180px;
+        background: #7C639F;
+        height: 30px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    #devLogin {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h4 {
+        margin: auto 6px;
+    }
+    footer {
+        background-color: #3F3D56;
+        display: flex;
+        height: 40px;
+        color: #FFFFFF;
+        font-size: 6px;
+        justify-content: center;
+    }
+    #searchLogo {
+        height: 20px;
+        width: 20px;
+        margin: auto;
+    }
+    .developers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 10%;
+        margin: 0px 20px;
+        min-width: 50%;
+      }
+      .developers_img {
+              height: 30px;
+              margin: 30px 5px 30px 1vw;
+              width: 30px;
+              margin-left: 30px;
+          }
+    .developersusername {
+        font-size: 12px;
+        color: #9F8E63;
+        margin: auto 5px;
+    }
+    .developers a {
+        height: 12px;
+        width: 12px;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        margin-left: 0px;
+    }#empty{
+        width:200px;
+        height:200px;
+        font-size:10px;
+        margin:auto;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+}

@@ -1,0 +1,252 @@
+@media only screen and (min-width: 400px) {
+#header2{
+    height: 12vh;
+    width:auto;
+    font-size: 24px;
+    background: #3F3D56;
+    color:white;
+}
+#mag{
+    margin-left:50px;
+    margin-right: 55%;
+}h4{
+    font-size:1.5vw;
+}
+#profilepic{
+    height: 400px;
+    width: 400px;
+    margin-left:50px;
+    margin-right:10px;
+    margin-top:70px;
+}
+h2{
+    color: #3F3D56;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    font-size:48px;
+}
+#developersInfo{
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    background: #cccccc;
+    text-align:left;
+    height:600px;
+}
+#info{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin:30px;
+    text-align:left;
+    margin-top:90px;
+    width:700px;
+
+}
+#links{
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: row;
+    width: fit-content;
+    margin-bottom:30px;
+    font-size:20px;
+}
+#links img{
+    height: 20px;
+    width:20px;
+    margin-right:10px;
+}
+#company{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: row;
+    width: fit-content;
+    font-size:16px;
+    margin-bottom:30px;
+}
+
+#company img{
+    height:16px;
+    width:16px;
+    margin-right:10px;
+    margin-left:20px;
+}
+h1{
+    font-size:56px;
+    display:flex;
+    justify-content:center;
+}
+#repos{
+    display:flex;
+    flex-direction:column;
+}
+.repo{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin:10px 30px;
+}
+.repo img{
+height: 40px;
+width: 40px;
+}
+.h3{
+    font-size:36px;
+    color:#0055ff;
+}
+h5{
+    font-size:24px;
+    color: grey;
+    margin-left:20px;
+}
+p{
+    font-size:32px;
+}
+#intro{
+    font-size:24px;
+}
+.repo{
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction:column;
+}
+.repo_name{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+}
+@media only screen and (max-width: 400px) {
+    #developersInfo p {
+        font-size:16px;
+    }
+    #header2{
+        height: 40px;
+        width:100%;
+        font-size: 24px;
+        background: #3F3D56;
+        color:white;
+        display:flex;
+        flex-direction:row;
+    }
+    #mag{
+        margin-left:5px;
+        margin-right:55%;
+    }h4{
+        font-size:2vw;
+    }
+    #profilepic{
+        height: 20vw;
+        width: 40%;
+        margin-bottom:0px;    
+    }
+    h2{
+        color: #3F3D56;
+        display:flex;
+        justify-content: flex-start;
+        align-items:center;
+        font-size:24px;
+        margin-top:0px;
+    }
+    #developersInfo{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        background: #cccccc;
+        text-align:left;
+        height:600px;
+        width:100%;
+        flex-direction:column;
+    }
+    #info{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin:10px;
+        text-align:center;
+        margin-top:20px;
+        width:100%;
+    
+    }
+    #links{
+        display:flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        flex-direction: row;
+        width: fit-content;
+        margin-bottom:30px;
+        font-size:20px;
+    }
+    #links img{
+        height: 20px;
+        width:20px;
+        margin-right:10px;
+    }
+    #company{
+        display:flex;
+        justify-content: flex-start;
+        align-items:center;
+        flex-direction: row;
+        width: fit-content;
+        font-size:16px;
+        margin-bottom:30px;
+    }
+    
+    #company img{
+        height:16px;
+        width:16px;
+        margin-right:10px;
+        margin-left:20px;
+    }
+    h1{
+        font-size:24px;
+        display:flex;
+        justify-content:center;
+    }
+    #repos{
+        display:flex;
+        flex-direction:column;
+    }
+    .repo{
+        display:flex;
+        justify-content: flex-start;
+        align-items:center;
+        margin:10px 30px;
+    }
+    .repo img{
+    height: 18px;
+    width: 18px;
+    }
+    .h3{
+        font-size:18px;
+        color:#0055ff;
+    }
+    h5{
+        font-size:12px;
+        color: grey;
+        margin-left:20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    #intro{
+        font-size:24px;
+    }
+    .repo{
+        display:flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        flex-direction:column;
+    }
+    .repo_name{
+        display:flex;
+        justify-content: flex-start;
+        align-items:center;
+    }
+}
